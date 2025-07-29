@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo" verbose="1">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL" value="https://cbstag-omnisupport.fpt.ai/"/>
+
+    <test name="SignIn">
+        <classes>
+            <class name="OmniSupport.testcases.SignInTest">
+                <methods>
+                    <include name="SignIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
