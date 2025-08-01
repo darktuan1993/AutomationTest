@@ -23,4 +23,5 @@ ENV PATH="${PATH}:/usr/lib/chromium/"
 RUN mkdir -p /app/baocao
 
 # Chạy pytest và xuất báo cáo vào thư mục baocao/
-CMD ["pytest", "submit.py", "--html=baocao/report.html", "--self-contained-html"]
+CMD ["python", "-m", "pytest", "submit.py", "--html=baocao/report.html", "--self-contained-html"]
+
