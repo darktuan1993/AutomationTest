@@ -17,4 +17,4 @@ WORKDIR /app
 
 ENV CHROME_BIN=/usr/bin/chromium
 ENV PATH="${PATH}:/usr/lib/chromium/"
-CMD ["python", "test_script.py"]
+CMD ["python", "login-check.py"]
