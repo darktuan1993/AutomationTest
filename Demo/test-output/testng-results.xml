@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-27T22:41:04 ICT" name="Demo" finished-at="2025-07-27T22:41:16 ICT" duration-ms="12432">
+    <groups>
+    </groups>
+    <test started-at="2025-07-27T22:41:04 ICT" name="SignIn" finished-at="2025-07-27T22:41:16 ICT" duration-ms="12432">
+      <class name="OmniSupport.testcases.SignInTest">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6]" started-at="2025-07-27T22:41:04 ICT" name="initializeTestBaseSetup" finished-at="2025-07-27T22:41:06 ICT" duration-ms="2379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cbstag-omnisupport.fpt.ai/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6]" started-at="2025-07-27T22:41:06 ICT" name="Setup" finished-at="2025-07-27T22:41:06 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SignIn()[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6]" started-at="2025-07-27T22:41:06 ICT" name="SignIn" finished-at="2025-07-27T22:41:13 ICT" duration-ms="7033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6]" started-at="2025-07-27T22:41:13 ICT" name="takeScreenshot" finished-at="2025-07-27T22:41:14 ICT" duration-ms="450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignIn status=SUCCESS method=SignInTest.SignIn()[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6]" started-at="2025-07-27T22:41:14 ICT" name="closeBrowser" finished-at="2025-07-27T22:41:14 ICT" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:OmniSupport.testcases.SignInTest@2fd953a6]" started-at="2025-07-27T22:41:14 ICT" name="tearDown" finished-at="2025-07-27T22:41:16 ICT" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- OmniSupport.testcases.SignInTest -->
+    </test> <!-- SignIn -->
+  </suite> <!-- Demo -->
+</testng-results>

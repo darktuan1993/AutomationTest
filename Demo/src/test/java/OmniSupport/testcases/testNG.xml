@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OmniSupport" verbose="1">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL" value="https://omnisupport.fpt.ai/"/>
+
+    <test name="LogIn">
+        <classes>
+            <class name="OmniSupport.testcases.SignInTest">
+                <methods>
+                    <include name="SignIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

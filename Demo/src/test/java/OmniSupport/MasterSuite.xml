@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo" verbose="1">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL" value="https://cbstag-omnisupport.fpt.ai/"/>
+
+    <listeners>
+        <listener class-name="OmniSupport.base.ExtentReport.ExtentReportListener"/>
+
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="SignIn">
+    <classes>
+        <class name="OmniSupport.testcases.SignInTest"/>
+    </classes>
+</test>
+</suite>
